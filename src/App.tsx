@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import Prompt from './Component/Prompt';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       Basic App
+      <Prompt/>
     </div>
   );
 }

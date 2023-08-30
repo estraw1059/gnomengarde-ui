@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 import Prompt from './Component/Prompt';
 
 
@@ -11,10 +10,9 @@ function App() {
   //2. Room Selection: This will have a room input which will spit back info
 
   return (
-    <div className="App">
+    <p className="text-center text-green-600 font-bold">
       Basic App
-      <Prompt/>
-    </div>
+    </p>
   );
 }
 

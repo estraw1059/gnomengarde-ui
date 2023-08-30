@@ -1,0 +1,4 @@
+.promptContainer {
+    display: flex;
+    flex-direction: column;
+}
